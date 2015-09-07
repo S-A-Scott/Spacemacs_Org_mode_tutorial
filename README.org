@@ -5,7 +5,7 @@
  - [[#introduction][Introduction]]
    - [[#summary][Summary]]
    - [[#install][Install]]
- - [[#basics-elements][Basics Elements]]
+ - [[#basic-elements][Basic Elements]]
    - [[#headlines][Headlines]]
    - [[#lists][Lists]]
    - [[#links][Links]]
@@ -28,4 +28,20 @@ To effectively use org-mode, add this to your =~/.spacemacs=
 
 #+BEGIN_SRC emacs-lisp
 (setq-default dotspacemacs-configuration-layers '(org))
+#+END_SRC
+
+* Basic Elements
+
+** Headlines
+
+Headlines define the structure of an outline tree. 
+The headlines in Org start with one or more starts. For example:
+
+#+BEGIN_SRC org
+* Top level headline
+** Second level
+*** 3rd level
+some text
+*** 3rd level
+more text
 #+END_SRC
