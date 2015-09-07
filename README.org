@@ -57,7 +57,7 @@ turns to:
 *** Unordered lists
 
 - Unordered lists items start with '-', '+', or '*' as bullets.
-- Press 'o' (in vim-mode which create a new line) gives you a new item
+- Press 'o' (in vim-mode which create a new line) gives you a new item.
 - You might also like nested lists
   - like this one (press 'o' to create new item, press 'ESC' return to normal mode, then '>' to indent it)
 - You can also reorder list items using M-arrow('j', 'k')
@@ -66,10 +66,25 @@ To create this unorder lists, all you have to do is preface a line with '-':
   
 #+BEGIN_SRC org
 - Unordered lists items start with '-', '+', or '*' as bullets.
-- Press 'o' (in vim-mode which create a new line) gives you a new item
+- Press 'o' (in vim-mode which create a new line) gives you a new item.
 - You might also like nested lists
   - like this one (press 'o' to create new item, press 'ESC' return to normal mode, then '>' to indent it)
 - You can also reorder list items using M-arrow('j', 'k')
-#END_SRC
+#+END_SRC
 
 *** Ordered lists
+
+1. Ordered list items start with a number followed by either '.' or ')', such as '1.' or '1)'
+2. Press 'o' (in vim-mode which create a new line) gives you a new item.
+3. It's the same rule to create nested lists, and you can also remix two different style lists.
+   - To add additional information.
+   - can use this techniques.
+
+To write this in org, you'd do this:
+#+BEGIN_SRC org
+1. Ordered list items start with a number followed by either '.' or ')', such as '1.' or '1)'
+2. Press 'o' (in vim-mode which create a new line) gives you a new item.
+3. It's the same rule to create nested lists, and you can also remix two different style lists.
+   - To add additional information.
+   - can use this techniques.
+#+END_SRC
