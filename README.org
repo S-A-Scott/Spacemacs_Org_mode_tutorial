@@ -8,9 +8,12 @@
  - [[#basic-elements][Basic Elements]]
    - [[#headlines][Headlines]]
    - [[#lists][Lists]]
+     - [[#unordered-lists][Unordered lists]]
+     - [[#ordered-lists][Ordered lists]]
    - [[#links][Links]]
    - [[#images][Images]]
    - [[#tables][Tables]]
+ - [[#visibility-cycling][Visibility cycling]]
  - [[#exporting][Exporting]]
 
 * Introduction
@@ -41,11 +44,32 @@ The headlines in Org start with one or more starts. For example:
 * Top level headline
 ** Second level
 *** 3rd level
-*** 3rd level
 #+END_SRC
 
 turns to:
 * Top level headline
 ** Second level
 *** 3rd level
-*** 3rd level
+
+
+** Lists
+
+*** Unordered lists
+
+- Unordered lists items start with '-', '+', or '*' as bullets.
+- Press 'o' (in vim-mode which create a new line) gives you a new item
+- You might also like nested lists
+  - like this one (press 'o' to create new item, press 'ESC' return to normal mode, then '>' to indent it)
+- You can also reorder list items using M-arrow('j', 'k')
+
+To create this unorder lists, all you have to do is preface a line with '-':
+  
+#+BEGIN_SRC org
+- Unordered lists items start with '-', '+', or '*' as bullets.
+- Press 'o' (in vim-mode which create a new line) gives you a new item
+- You might also like nested lists
+  - like this one (press 'o' to create new item, press 'ESC' return to normal mode, then '>' to indent it)
+- You can also reorder list items using M-arrow('j', 'k')
+#END_SRC
+
+*** Ordered lists
