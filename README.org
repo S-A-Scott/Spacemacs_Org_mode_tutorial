@@ -41,7 +41,11 @@ The headlines in Org start with one or more starts. For example:
 * Top level headline
 ** Second level
 *** 3rd level
-some text
 *** 3rd level
-more text
 #+END_SRC
+
+turns to:
+* Top level headline
+** Second level
+*** 3rd level
+*** 3rd level
