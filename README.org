@@ -1,1 +1,31 @@
 * Spacemacs Org-mode tutorial
+
+
+* Table of Contents
+ - [[#introduction][Introduction]]
+   - [[#summary][Summary]]
+   - [[#install][Install]]
+ - [[#basics-elements][Basics Elements]]
+   - [[#headlines][Headlines]]
+   - [[#lists][Lists]]
+   - [[#links][Links]]
+   - [[#images][Images]]
+   - [[#tables][Tables]]
+ - [[#exporting][Exporting]]
+
+* Introduction
+
+** Summary
+
+[[http:orgmode.org][Org]] is a mode for keeping notes, maintaining TODO lists,
+and project planning with a fast and effective plain-text
+system. This document is intended to teach reader some useful
+techniques in org-mode with step-by-step instructions.
+
+** Install
+
+To effectively use org-mode, add this to your =~/.spacemacs= 
+
+#+BEGIN_SRC emacs-lisp
+(setq-default dotspacemacs-configuration-layers '(org))
+#+END_SRC
