@@ -10,6 +10,7 @@
    - [[#lists][Lists]]
      - [[#unordered-lists][Unordered lists]]
      - [[#ordered-lists][Ordered lists]]
+     - [[#check-lists][Check lists]]
    - [[#links][Links]]
    - [[#images][Images]]
    - [[#tables][Tables]]
@@ -77,7 +78,7 @@ To create this unorder lists, all you have to do is preface a line with '-':
 1. Ordered list items start with a number followed by either '.' or ')', such as '1.' or '1)'
 2. Press 'o' (in vim-mode which create a new line) gives you a new item.
 3. It's the same rule to create nested lists, and you can also remix two different style lists.
-   - To add additional information.
+   - To add some additional context.
    - can use this techniques.
 
 To write this in org, you'd do this:
@@ -85,6 +86,17 @@ To write this in org, you'd do this:
 1. Ordered list items start with a number followed by either '.' or ')', such as '1.' or '1)'
 2. Press 'o' (in vim-mode which create a new line) gives you a new item.
 3. It's the same rule to create nested lists, and you can also remix two different style lists.
-   - To add additional information.
+   - To add some additional context.
    - can use this techniques.
 #+END_SRC
+
+*** Check lists [/]
+
+- [ ] We can even have check lists
+- [ ] Hit M-S-RET gives a new item with a check box
+- [ ] You can also have sub items
+  - [ ] like this
+- [ ] Hit C-c C-c to check/uncheck a box
+- [ ] Track the number of items( [finished/total] ) by adding [/] above a checklist
+
+* Links
